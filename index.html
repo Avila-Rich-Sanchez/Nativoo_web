@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#1f3d2b">
+    <title>NATIVOO | Hamburguesas artesanales en tu ciudad</title>
+    <meta name="description" content="Hamburguesas artesanales hechas al fuego, con ingredientes honestos y sabor de origen. Descubre el menú de NATIVOO y visítanos en tu ciudad.">
+    <meta name="keywords" content="hamburguesas artesanales, hamburguesería, hamburguesas en tu ciudad, NATIVOO">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="NATIVOO | Hamburguesas artesanales">
+    <meta property="og:description" content="Sabor de origen, hecho al fuego. Descubre el menú de NATIVOO.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=1200&q=85">
+    <meta property="og:locale" content="es_ES">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://images.unsplash.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
+    <script>
+        tailwind = {
+        config: {
+            theme: {
+            extend: {
+                colors: { bosque: '#1f3d2b', musgo: '#496b45', crema: '#f6f4eb', arcilla: '#b75d3d' },
+                fontFamily: { display: ['Fraunces', 'serif'], sans: ['DM Sans', 'sans-serif'] }
+            }
+            }
+        }
+        };
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    </head>
+    <body class="bg-crema text-bosque">
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <header class="site-header">
+        <div class="nav-shell mx-auto">
+        <a class="brand brand-nav" href="#inicio" aria-label="NATIVOO, inicio">
+            <span class="brand-word">NATIVOO<span>COCINA DE ORIGEN</span></span>
+        </a>
+        <nav class="desktop-nav" aria-label="Navegación principal">
+            <a href="#historia">Nuestra historia</a>
+            <a href="#menu">Menú</a>
+            <a href="#resenas">Reseñas</a>
+            <!-- <a href="#visitanos">Encuéntranos</a> -->
+        </nav>
+        <a class="nav-cta" href="#menu">Explorar menú <span aria-hidden="true">↗</span></a>
+        <details class="mobile-nav">
+            <summary aria-label="Abrir navegación"><span></span><span></span></summary>
+            <nav aria-label="Navegación móvil">
+            <a href="#historia">Nuestra historia</a>
+            <a href="#menu">Menú</a>
+            <a href="#resenas">Reseñas</a>
+            <!-- <a href="#visitanos">Encuéntranos</a> -->
+            </nav>
+        </details>
+        </div>
+    </header>
+
+    <main id="contenido">
+        <section class="hero" id="inicio" aria-labelledby="hero-title">
+        <div class="hero-copy">
+            <p class="eyebrow"><span></span> FUEGO LENTO · INGREDIENTES REALES</p>
+            <div class="hero-logo-wrap" style="width: 200px" >
+            <img class="logo-image hero-logo" style="width: 600px;" src="assets/logo-nativo.png" alt="Logo de NATIVOO">
+            <span class="hero-monogram" aria-hidden="true">N</span>
+            </div>
+            <p class="hero-est">EST. 2026 <span></span> HECHO CON RAÍCES</p>
+            <p class="hero-brand-name">NATIVOO</p>
+            <h1 id="hero-title">El origen<br>se siente <em>en cada bocado.</em></h1>
+            <p class="hero-description">Hamburguesas artesanales, fuego de verdad y una mesa hecha para compartir.</p>
+            <div class="hero-actions">
+            <a class="button button-dark" data-whatsapp-link href="https://wa.me/" target="_blank" rel="noopener noreferrer">Hacer pedido <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="#menu">Ver el menú <span aria-hidden="true">↓</span></a>
+            </div>
+            <div class="hero-note"><span class="note-mark" aria-hidden="true">✳</span><span>De la tierra<br>a la parrilla.</span></div>
+        </div>
+        <div class="hero-visual">
+            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=1400&q=85" alt="Hamburguesa artesanal con queso, vegetales frescos y pan dorado" fetchpriority="high">
+            <div class="image-caption"><span>01 / 04</span><span>El sabor de lo esencial</span></div>
+            <div class="hero-stamp" aria-label="Cocina hecha al fuego"><span>COCINA</span><b>AL</b><span>FUEGO</span><i>✳</i></div>
+        </div>
+        <div class="hero-index" aria-hidden="true">Nº 001 <span>—</span> TU NUEVO RITUAL</div>
+        </section>
+
+        <section class="story section-pad" id="historia" aria-labelledby="story-title">
+        <div class="story-image">
+            <img src="https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=1100&q=80" alt="Preparación artesanal de una hamburguesa a la parrilla" loading="lazy">
+            <span class="story-image-tag">SIN ATAJOS. CON ORIGEN.</span>
+        </div>
+        <div class="story-copy">
+            <p class="eyebrow"><span></span> NUESTRA ESENCIA</p>
+            <h2 id="story-title">Lo bueno<br>viene de <em>la tierra.</em></h2>
+            <p>NATIVOO nace de una idea sencilla: volver a lo que importa. Buen producto, manos que saben y el tiempo que merece cada cosa.</p>
+            <p>Seleccionamos ingredientes frescos y cocinamos al fuego, sin disfrazar sabores. Una hamburguesa honesta, para disfrutar sin apuro y volver con ganas.</p>
+            <a class="text-link" href="#visitanos">Ven a nuestra mesa <span aria-hidden="true">↗</span></a>
+            <div class="story-signature">NATIVOO <span>EST. 2026 · COCINA DE ORIGEN</span></div>
+        </div>
+        <span class="story-side-label" aria-hidden="true">RAÍZ · FUEGO · ENCUENTRO</span>
+        </section>
+
+        <section class="menu-section section-pad" id="menu" aria-labelledby="menu-title">
+        <div class="section-heading">
+            <div>
+            <p class="eyebrow"><span></span> HECHO PARA DISFRUTAR</p>
+            <h2 id="menu-title">La carta <em>NATIVOO</em></h2>
+            </div>
+            <p>Producto de origen, combinaciones sin vueltas y ese primer bocado que lo dice todo.</p>
+        </div>
+        <div class="menu-toolbar">
+            <div class="menu-tabs" role="group" aria-label="Filtrar por categoría">
+            <button class="menu-tab is-active" type="button" data-category="todas" aria-pressed="true">Todo</button>
+            <button class="menu-tab" type="button" data-category="clasicas" aria-pressed="false">Clásicas</button>
+            <button class="menu-tab" type="button" data-category="especiales" aria-pressed="false">Especiales</button>
+            <button class="menu-tab" type="button" data-category="acompanamientos" aria-pressed="false">Acompañamientos</button>
+            <button class="menu-tab" type="button" data-category="bebidas" aria-pressed="false">Bebidas</button>
+            </div>
+            <span class="menu-count" id="menu-count" aria-live="polite"></span>
+        </div>
+        <p class="menu-status" id="menu-status" role="status" aria-live="polite"></p>
+        <div class="menu-grid" id="menu-grid" aria-live="polite"></div>
+        <div class="menu-footnote"><span>✳</span> Pregunta por nuestras opciones vegetarianas y alérgenos.</div>
+        </section>
+
+        <section class="quote-band" aria-label="Filosofía NATIVOO">
+        <span class="quote-mark" aria-hidden="true">“</span>
+        <p>El fuego reúne.<br><em>La buena comida también.</em></p>
+        <span class="quote-end" aria-hidden="true">✳</span>
+        </section>
+
+        <section class="reviews section-pad" id="resenas" aria-labelledby="reviews-title">
+        <div class="reviews-heading">
+            <p class="eyebrow"><span></span> VOCES DE LA MESA</p>
+            <h2 id="reviews-title">Lo cuentan <em>ustedes.</em></h2>
+            <p>La mejor parte de cocinar es compartirlo. Esto es lo que dice nuestra comunidad.</p>
+        </div>
+        <div class="reviews-layout">
+            <div class="reviews-list-wrap">
+            <div class="reviews-summary"><div class="review-stars-static" aria-label="Reseñas de clientes">★★★★★</div><span>Reseñas de nuestra comunidad</span></div>
+            <p class="review-status" id="review-status" role="status" aria-live="polite"></p>
+            <div class="reviews-list" id="reviews-list"></div>
+            </div>
+            <form class="review-form" id="review-form">
+            <div class="form-heading"><span class="form-icon" aria-hidden="true">✳</span><div><h3>Deja tu huella</h3><p>Tu opinión nos ayuda a crecer.</p></div></div>
+            <label for="review-name">Tu nombre</label>
+            <input id="review-name" name="nombre_cliente" type="text" autocomplete="name" minlength="2" maxlength="60" placeholder="¿Cómo te llamas?" required style="margin-bottom: 25px;">
+            <fieldset class="rating-field">
+                <legend>¿Cómo estuvo tu experiencia?</legend>
+                <div class="rating-stars" role="group" aria-label="Calificación de una a cinco estrellas">
+                <button type="button" data-rating="1" aria-label="1 estrella" aria-pressed="false">★</button>
+                <button type="button" data-rating="2" aria-label="2 estrellas" aria-pressed="false">★</button>
+                <button type="button" data-rating="3" aria-label="3 estrellas" aria-pressed="false">★</button>
+                <button type="button" data-rating="4" aria-label="4 estrellas" aria-pressed="false">★</button>
+                <button type="button" data-rating="5" aria-label="5 estrellas" aria-pressed="false">★</button>
+                </div>
+                <input id="review-rating" name="calificacion" type="hidden" value="">
+            </fieldset>
+            <label for="review-comment">Cuéntanos un poco más</label>
+            <textarea id="review-comment" name="comentario" rows="4" maxlength="500" placeholder="¿Qué fue lo que más te gustó?" required></textarea>
+            <div class="form-bottom"><span>Máximo 500 caracteres</span><button class="button button-dark" type="submit">Enviar reseña <span aria-hidden="true">↗</span></button></div>
+            <p class="form-feedback" id="form-feedback" role="status" aria-live="polite"></p>
+            <p class="moderation-note">Cada reseña se revisa antes de aparecer publicada.</p>
+            </form>
+        </div>
+        </section>
+
+        <!-- <section class="visit-section" id="visitanos" aria-labelledby="visit-title">
+        <div class="visit-copy">
+            <p class="eyebrow"><span></span> AQUÍ NOS ENCONTRAMOS</p>
+            <h2 id="visit-title">Una mesa<br>te está <em>esperando.</em></h2>
+            <div class="visit-detail"><span class="detail-icon" aria-hidden="true">⌖</span><div><h3>Dirección</h3><p>Tu dirección aquí<br>Tu ciudad, tu país</p></div></div>
+            <div class="visit-detail"><span class="detail-icon" aria-hidden="true">◷</span><div><h3>Horario</h3><p>Martes a domingo<br>13:00–23:00</p></div></div>
+            <div class="visit-detail"><span class="detail-icon" aria-hidden="true">↗</span><div><h3>Síguenos</h3><p><a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a><span class="social-divider">·</span><a href="https://facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a></p></div></div>
+            <a class="button button-light" href="https://maps.google.com/?q=hamburgueseria+en+tu+ciudad" target="_blank" rel="noopener noreferrer">Cómo llegar <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="map-wrap">
+            <iframe title="Mapa de ubicación de NATIVOO" src="https://maps.google.com/maps?q=hamburgueseria%20en%20tu%20ciudad&z=14&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+            <span class="map-label"><span></span> NATIVOO · TU CIUDAD</span>
+        </div>
+        </section> -->
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-main">
+        <a class="brand brand-footer" href="#inicio" aria-label="NATIVOO, volver al inicio">
+            <span class="brand-seal" aria-hidden="true">N</span>
+            <span class="brand-word">NATIVOO<span>COCINA DE ORIGEN</span></span>
+        </a>
+        <p>Del origen a la mesa.<br>Siempre con fuego.</p>
+        <a class="footer-top" href="#inicio">Volver arriba <span aria-hidden="true">↑</span></a>
+        </div>
+        <div class="footer-bottom" style="font-size: 0.7rem;"><span>© 2026 NATIVOO · EST. 2026</span><span>HECHO CON RAÍCES <i aria-hidden="true">✳</i></span><div><a href="https://www.instagram.com/nativoo.sc/" target="_blank" rel="noopener noreferrer">Instagram</a>
+    </footer>
+
+    <a class="whatsapp-float"
+        data-whatsapp-link
+        href="https://wa.me/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Hacer un pedido por WhatsApp"
+        title="Hacer un pedido por WhatsApp">
+        <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+        <span class="whatsapp-float-label" aria-hidden="true">Pedir por WhatsApp</span>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="js/supabase-client.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/resenas.js"></script>
+    <script src="js/whatsapp.js"></script>
+</body>
+</html>

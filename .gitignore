@@ -1,0 +1,40 @@
+# Dependencias
+node_modules/
+vendor/
+
+# Variables de entorno (con secretos)
+.env
+.env.local
+.env.*.local
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos del editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build artifacts (si algún día usas un bundler)
+dist/
+build/
+.cache/
+
+# Configuración personal de Supabase CLI (puede tener tokens)
+supabase/.temp/
+supabase/.branches/
+
+# Backups de la base de datos
+*.sql.gz
+*.dump
+backups/

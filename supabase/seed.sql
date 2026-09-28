@@ -1,0 +1,13 @@
+insert into public.menu (nombre, descripcion, precio, categoria, imagen_url, disponible, orden) values
+    ('La Raíz', 'Carne a la parrilla, cheddar, cebolla caramelizada, pepinillos y salsa de la casa.', 8900, 'clasicas', 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80', true, 1),
+    ('Nativa', 'Carne a la parrilla, queso provolone, rúcula fresca y mayo de hierbas.', 9500, 'clasicas', 'https://images.unsplash.com/photo-1553979459-d2229ba7433a?auto=format&fit=crop&w=800&q=80', true, 2),
+    ('Doble Origen', 'Doble carne, doble cheddar, panceta crocante y nuestra salsa ahumada.', 10900, 'especiales', 'https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=800&q=80', true, 3),
+    ('La Fogonera', 'Carne a la parrilla, queso azul, cebolla al vino y hojas verdes.', 10500, 'especiales', 'https://images.unsplash.com/photo-1553979459-d2229ba7433a?auto=format&fit=crop&w=800&q=80', true, 4),
+    ('Monte Verde', 'Medallón de garbanzos, palta, tomate, hojas verdes y aderezo cítrico.', 9200, 'especiales', 'https://images.unsplash.com/photo-1520072959219-c595dc870360?auto=format&fit=crop&w=800&q=80', true, 5),
+    ('La Ahumada', 'Carne a la parrilla, provolone, panceta, pepinillos y barbacoa de la casa.', 10200, 'especiales', 'https://images.unsplash.com/photo-1571091718767-18b5b1457add?auto=format&fit=crop&w=800&q=80', true, 6),
+    ('La Criolla', 'Carne a la parrilla, queso, tomate, lechuga y chimichurri suave.', 9300, 'clasicas', 'https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=800&q=80', true, 7),
+    ('La Huerta', 'Medallón vegetal, queso, cebolla morada, hojas frescas y alioli.', 9000, 'especiales', 'https://images.unsplash.com/photo-1520072959219-c595dc870360?auto=format&fit=crop&w=800&q=80', true, 8),
+    ('Papas de la Casa', 'Papas rústicas al romero con mayo de hierbas.', 3900, 'acompanamientos', 'https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=800&q=80', true, 9),
+    ('Aros de Cebolla', 'Crujientes, dorados y hechos al momento.', 4200, 'acompanamientos', 'https://images.unsplash.com/photo-1639024471283-03518883512d?auto=format&fit=crop&w=800&q=80', true, 10),
+    ('Limonada de Estación', 'Limón recién exprimido, menta y un toque de jengibre.', 2800, 'bebidas', 'https://images.unsplash.com/photo-1513558161293-cdaf765edfd7?auto=format&fit=crop&w=800&q=80', true, 11),
+    ('Bebida de la Casa', 'Consulta las opciones frescas disponibles hoy.', 2500, 'bebidas', 'https://images.unsplash.com/photo-1437418747212-8d9709afab22?auto=format&fit=crop&w=800&q=80', true, 12);
