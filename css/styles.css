@@ -224,6 +224,7 @@ h1 em, h2 em { color: var(--moss); font-weight: 500; }
     color: white;
     box-shadow: 0 8px 24px rgba(23,47,33,.3);
     transition: background .2s ease, transform .2s ease, box-shadow .2s ease;
+    bottom: 60px;
 }
 
 .whatsapp-float:hover {
