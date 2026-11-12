@@ -115,4 +115,6 @@ document.querySelectorAll('.menu-tab').forEach((button) => {
     });
 });
 
+// No se muestra nada de la base de datos
+
 renderMenu(menuFallback);
