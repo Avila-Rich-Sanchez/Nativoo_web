@@ -30,7 +30,6 @@ document.querySelectorAll('.logo-image').forEach((image) => {
     });
 
 const menuGrid = document.querySelector('#menu-grid');
-const menuStatus = document.querySelector('#menu-status');
 const menuCount = document.querySelector('#menu-count');
 
 function safeImageUrl(value) {
@@ -116,23 +115,4 @@ document.querySelectorAll('.menu-tab').forEach((button) => {
     });
 });
 
-async function loadMenu() {
-    let items = menuFallback;
-    if (window.nativoSupabaseConfigured) {
-        const { data, error } = await window.nativoSupabase
-        .from('menu')
-        .select('nombre, descripcion, precio, categoria, imagen_url, orden')
-        .eq('disponible', true)
-        .order('orden', { ascending: true });
-
-        if (!error && data?.length) {
-        items = data;
-        } else if (error) {
-        menuStatus.textContent = 'No pudimos conectar con la carta online. Te mostramos el menú de ejemplo.';
-        console.error('Error al cargar el menú:', error.message);
-        }
-    }
-    renderMenu(items);
-}
-
-loadMenu();
+renderMenu(menuFallback);
